@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 01 22:47:26 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>506 seconds (506767 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalScheduleAppointmentPageTest.createNewApptClickBtnTest()'><b>createNewApptClickBtnTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalScheduleAppointmentPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.mmp.qa.testcases.PatientPortalScheduleAppointmentPageTest@343f4d3d</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PateintLoginPageTest.forgotpasswdLinkTest()'><b>forgotpasswdLinkTest</b><br>Test class: com.mmp.qa.testcases.PateintLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PateintLoginPageTest@57baeedf</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PateintLoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.mmp.qa.testcases.PateintLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PateintLoginPageTest@57baeedf</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PateintLoginPageTest.loginpatienceTest()'><b>loginpatienceTest</b><br>Test class: com.mmp.qa.testcases.PateintLoginPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.mmp.qa.testcases.PateintLoginPageTest@57baeedf</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test.pageTitleCheckTest()'><b>pageTitleCheckTest</b><br>Test class: com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test@53b32d7</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientLoginHomePageTest.pateintLoginHomePageLoginMainpageTest()'><b>pateintLoginHomePageLoginMainpageTest</b><br>Test class: com.mmp.qa.testcases.PatientLoginHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.mmp.qa.testcases.PatientLoginHomePageTest@42e26948</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientLoginHomePageTest.pateintLoginHomePageLogoTest()'><b>pateintLoginHomePageLogoTest</b><br>Test class: com.mmp.qa.testcases.PatientLoginHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientLoginHomePageTest@42e26948</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientLoginHomePageTest.pateintLoginHomePageTitleTest()'><b>pateintLoginHomePageTitleTest</b><br>Test class: com.mmp.qa.testcases.PatientLoginHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientLoginHomePageTest@42e26948</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.patientPoralFeesPageLinkTest()'><b>patientPoralFeesPageLinkTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.patientPoralProfilePageLinkTest()'><b>patientPoralProfilePageLinkTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.patientPortalLogoutLinkTest()'><b>patientPortalLogoutLinkTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.patientPortalMessagesPageLinkTest()'><b>patientPortalMessagesPageLinkTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.patientPortalScheduleApptPageLinkTest()'><b>patientPortalScheduleApptPageLinkTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.patientPortalSearchSymptPageLinkTest()'><b>patientPortalSearchSymptPageLinkTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test.schedApptInputTest()'><b>schedApptInputTest</b><br>Test class: com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test<br>Parameters: Beth, 02/09/2020, 11Am, cold</td>
+<td></td>
+<td>12</td>
+<td>com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test@53b32d7</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test.schedApptInputTest()'><b>schedApptInputTest</b><br>Test class: com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test<br>Parameters: Charlie, 09/09/2020, 10Am, cough</td>
+<td></td>
+<td>12</td>
+<td>com.mmp.qa.testcases.PatientScheduleApptProviderPage1Test@53b32d7</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.validatePatientPortalPageLogoTest()'><b>validatePatientPortalPageLogoTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.validatePatientPortalPageTitleTest()'><b>validatePatientPortalPageTitleTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.validatePatientPortalUsernameCheckTest()'><b>validatePatientPortalUsernameCheckTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.verifyPatientPortalTableEntryTest()'><b>verifyPatientPortalTableEntryTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+<tr>
+<td title='com.mmp.qa.testcases.PatientPortalHomePageTest.verifyPatientPortalTablelDocApptEntryTest()'><b>verifyPatientPortalTablelDocApptEntryTest</b><br>Test class: com.mmp.qa.testcases.PatientPortalHomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mmp.qa.testcases.PatientPortalHomePageTest@5e3a8624</td></tr>
+</table><p>
+</body>
+</html>

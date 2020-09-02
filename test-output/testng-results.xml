@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59347" started-at="2020-09-02T04:04:50Z" finished-at="2020-09-02T04:05:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59347" started-at="2020-09-02T04:04:50Z" finished-at="2020-09-02T04:05:49Z">
+      <class name="com.mmp.qa.testcases.PateintLoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="19116" started-at="2020-09-02T00:04:50Z" finished-at="2020-09-02T00:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="loginPageTitleTest" duration-ms="54" started-at="2020-09-02T00:05:09Z" finished-at="2020-09-02T00:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="1028" started-at="2020-09-02T00:05:09Z" finished-at="2020-09-02T00:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="14772" started-at="2020-09-02T00:05:10Z" finished-at="2020-09-02T00:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginpatienceTest()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="loginpatienceTest" duration-ms="6474" started-at="2020-09-02T00:05:25Z" finished-at="2020-09-02T00:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpatienceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="1022" started-at="2020-09-02T00:05:31Z" finished-at="2020-09-02T00:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="15324" started-at="2020-09-02T00:05:32Z" finished-at="2020-09-02T00:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotpasswdLinkTest()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="forgotpasswdLinkTest" duration-ms="405" started-at="2020-09-02T00:05:48Z" finished-at="2020-09-02T00:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswdLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mmp.qa.testcases.PateintLoginPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="1091" started-at="2020-09-02T00:05:48Z" finished-at="2020-09-02T00:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mmp.qa.testcases.PateintLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
